@@ -1,0 +1,73 @@
+@media (max-width: 740px){
+    #nav > li {
+        display: block;
+    }
+    #nav{
+        display: block;
+    }
+    
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(53, 53, 51); 
+        
+    }
+    #nav .subnav li a{
+        color: rgb(255, 255, 255);  
+    }
+    #nav .subnav a {
+        padding: 4px 55px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header #nav a .nav-beside .ti-eye{
+        display: none;
+        font-size: 100px !important;
+    }
+    #header .search-btn{
+        display: none;
+    }
+
+    #header .menu-mobile-btn{
+        display: block;
+    }
+    #content .one-column{
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #content .one-col-mobile-place{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #content .one-col-mobile-contact{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #content .oneCol-input{
+        width: 100%;
+       
+    }
+    #content .speacial-magrin{
+        margin-top: 10px;
+    }
+    #content .full-width-send{
+        width: 100%;
+    }
+    #content .btn-submit{
+        padding: 16px 16px;
+    }
+    .place-list .place-body {
+        text-align: center;
+    }
+    #content .content-section {
+        
+        padding: 64px 0 50px;
+}   
+    #footer .link {
+    margin: 8px 0;
+    }
+}
